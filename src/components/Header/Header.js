@@ -3,11 +3,31 @@ import React, { Component } from 'react';
 export default class Header extends Component 
     {
 
+
+      componentDidMount() {
+        let logoSwitch = document.querySelector('.header-logo');
+        let counter = 0;
+        function switchTheme(e) {
+          
+          if (counter%2==0) {
+            document.documentElement.setAttribute('data-theme', 'dark');
+            counter++;
+          } else {
+            document.documentElement.removeAttribute('data-theme', 'dark');
+            counter++;
+          }
+        
+      }
+      
+      logoSwitch.addEventListener('click', switchTheme, false);
+      
+      }
+
     render() {
       return (
         <header className="s-header">
-          <div className="header-logo">
-            <a className="site-logo" href="index.html">
+          <div className="header-logo"> 
+            <a className="site-logo">
               <img src="images/logo3.png" alt="Homepage" />
             </a>
           </div>
