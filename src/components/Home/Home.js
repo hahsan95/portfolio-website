@@ -10,19 +10,20 @@ export default class Home extends Component
         <div className="shadow-overlay" />
         <div className="home-content">
           <div className="row home-content__main">
-            <h3>Welcome to Glint</h3>
+            <h3>Welcome to my website</h3>
             <h1>
-              We are a creative group <br />
-              of people who design <br />
-              influential brands and <br />
-              digital experiences.
+            Full stack software engineer <br />
+            and recent graduate from <br />
+            the University of Chicago. <br />
+            Always looking for new <br />
+            opportunities to learn.
             </h1>
             <div className="home-content__buttons">
               <a href="#contact" className="smoothscroll btn btn--stroke">
-                Start a Project
+                My Resume
               </a>
               <a href="index.html#about" className="smoothscroll btn btn--stroke">
-                More About Us
+                More About Me
               </a>
             </div>
           </div>

@@ -3,6 +3,11 @@ import React, { Component } from 'react';
 export default class Contact extends Component 
     {
 
+      constructor() {
+        super()
+        this.thisYear = new Date().getFullYear().toString();
+      }
+
     render() {
       return (
         <footer>
@@ -26,7 +31,7 @@ export default class Contact extends Component
         <div className="row footer-bottom">
           <div className="col-twelve">
             <div className="copyright">
-              <span>© Copyright Glint 2017</span> 
+              <span>© Copyright Homum Ahsan {this.thisYear}</span> 
               <span>Site Template by <a href="https://www.colorlib.com/">Colorlib</a></span>	
             </div>
             <div className="go-top">

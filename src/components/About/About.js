@@ -8,7 +8,7 @@ export default class About extends Component {
         <div className="row section-header has-bottom-sep" data-aos="fade-up">
           <div className="col-full">
             <h3 className="subhead subhead--dark">Hello There</h3>
-            <h1 className="display-1 display-1--light">We Are Glint</h1>
+            <h1 className="display-1 display-1--light">I am Homum</h1>
           </div>
         </div> 
         <div className="row about-desc" data-aos="fade-up">

@@ -2764,7 +2764,8 @@ html.no-csstransitions .home-content__main {
 }
 
 .clients__slide {
-    display: block;
+    display: inline-block;
+    width: 200px;
     opacity: .55;
     padding: 1.5rem 2.8rem;
     -webkit-transition: opacity 0.5s ease-in-out;

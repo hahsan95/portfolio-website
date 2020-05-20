@@ -9,7 +9,7 @@ export default class Clients extends Component
         <div className="row section-header" data-aos="fade-up">
           <div className="col-full">
             <h3 className="subhead">Our Clients</h3>
-            <h1 className="display-2">Glint has been honored to
+            <h1 className="display-2">Homum has been honored to
               partner up with these clients</h1>
           </div>
         </div> 
