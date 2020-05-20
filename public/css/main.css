@@ -3400,7 +3400,7 @@ footer .row {
     border: none;
     width: 191px;
     height: 40px;
-    background: url("../images/logo-footer-2.png") no-repeat center;
+    background: var(--bg-img);
     background-size: 191px 40px;
     font: 0/0 a;
     text-shadow: none;
@@ -3621,8 +3621,10 @@ footer .row {
 
 :root {
     --current-color: #39b54a;
+    --bg-img: url("../images/logo-footer-2.png") no-repeat center;
 }
 
 [data-theme="dark"] {
-    --current-color: #72c0fa;
+    --current-color: #1098F7;
+    --bg-img: url("../images/logo4.png") no-repeat center;
 }
