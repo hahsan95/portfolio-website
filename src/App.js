@@ -4,7 +4,7 @@ import './App.css';
 import AOS from 'aos';
 
 /* Components */
-import { Header, Home, About, Services, Works } from './components/index.js';
+import { Header, Home, About, Services, Works, Clients, Contact, Footer } from './components/index.js';
 
 class App extends React.Component {
   componentDidMount() {
@@ -18,6 +18,9 @@ class App extends React.Component {
         <About />
         <Services />
         <Works />
+        <Clients />
+        <Contact />
+        <Footer />
       </div>
     );
   }
