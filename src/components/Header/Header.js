@@ -8,7 +8,7 @@ export default class Header extends Component
         <header className="s-header">
           <div className="header-logo">
             <a className="site-logo" href="index.html">
-              <img src="images/logo.png" alt="Homepage" />
+              <img src="images/logo3.png" alt="Homepage" />
             </a>
           </div>
           <nav className="header-nav">
