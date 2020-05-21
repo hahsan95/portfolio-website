@@ -5,19 +5,21 @@ export default class Home extends Component
     render() {
 
       return (
-        <section id="home" className="s-home target-section" data-parallax="scroll" data-image-src="images/hero-bg.jpg" data-natural-width={3000} data-natural-height={2000} data-position-y="center">
+        <section id="home" className="s-home target-section" data-parallax="scroll" data-image-src="images/hero-bg-3.jpg" data-position-y="center">
         <div className="overlay" />
         <div className="shadow-overlay" />
         <div className="home-content">
           <div className="row home-content__main">
-            <h3>Welcome to my website</h3>
-            <h1>
-            Full stack software engineer <br />
-            and recent graduate from <br />
-            the University of Chicago. <br />
-            Always looking for new <br />
-            opportunities to learn.
-            </h1>
+            <div className="home-content__text">
+              <h3>Welcome to my website</h3>
+              <h1>
+              Full stack software engineer <br />
+              and recent graduate from <br />
+              the University of Chicago. <br />
+              Always looking for new <br />
+              opportunities to learn.
+              </h1>
+            </div>
             <div className="home-content__buttons">
               <a href="#contact" className="smoothscroll btn btn--stroke">
                 My Resume
