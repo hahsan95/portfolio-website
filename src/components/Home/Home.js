@@ -13,6 +13,7 @@ export default class Home extends Component
             <div className="home-content__text">
               <h3>Welcome to my website</h3>
               <h1>
+              Har har mar mar my name is zohzoh
               Full stack software engineer <br />
               and recent graduate from <br />
               the University of Chicago. <br />
