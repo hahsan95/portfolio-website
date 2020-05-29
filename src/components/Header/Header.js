@@ -9,7 +9,7 @@ export default class Header extends Component
         let counter = 0;
         function switchTheme(e) {
           
-          if (counter%2===0) {
+          if (counter%2==0) {
             document.documentElement.setAttribute('data-theme', 'dark');
             counter++;
           } else {
