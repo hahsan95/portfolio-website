@@ -40,27 +40,27 @@ export default class About extends Component {
         <ul className="skill-bars">
           <li>
             <div className="progress percent90"><span>90%</span></div>
-            <strong>HTML5</strong>
+            <strong>Javascript</strong>
           </li>
           <li>
             <div className="progress percent85"><span>85%</span></div>
-            <strong>CSS3</strong>
+            <strong>React.js</strong>
           </li>
           <li>
             <div className="progress percent70"><span>70%</span></div>
-            <strong>JQuery</strong>
+            <strong>Angular.js</strong>
           </li>
           <li>
             <div className="progress percent95"><span>95%</span></div>
-            <strong>PHP</strong>
+            <strong>HTML</strong>
           </li>
           <li>
             <div className="progress percent75"><span>75%</span></div>
-            <strong>Wordpress</strong>
+            <strong>CSS</strong>
           </li>
           <li>
             <div className="progress percent90"><span>90%</span></div>
-            <strong>Angular JS</strong>
+            <strong>SQL</strong>
           </li>
         </ul>
      
