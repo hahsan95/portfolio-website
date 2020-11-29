@@ -11,13 +11,10 @@ export default class Home extends Component
         <div className="home-content">
           <div className="row home-content__main">
             <div className="home-content__text">
-              <h3>Welcome to my website</h3>
+              <h3>Welcome here, friend</h3>
               <h1>
-              Full stack software engineer <br />
-              and recent graduate from <br />
-              the University of Chicago. <br />
-              Always looking for new <br />
-              opportunities to learn.
+              Homum Ahsan.<br />
+              I build things for the web.
               </h1>
             </div>
             <div className="home-content__buttons">
@@ -41,7 +38,7 @@ export default class Home extends Component
             <a href="#0"><i className="fa fa-facebook" aria-hidden="true" /><span>Facebook</span></a>
           </li>
           <li>
-            <a href="#0"><i className="fa fa-twitter" aria-hidden="true" /><span>Twiiter</span></a>
+            <a href="#0"><i className="fa fa-twitter" aria-hidden="true" /><span>Twitter</span></a>
           </li>
           <li>
             <a href="#0"><i className="fa fa-instagram" aria-hidden="true" /><span>Instagram</span></a>
